@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>ES6++ playground</title>
+  </head>
+  <body>
+
+    <script src="./node_modules/traceur/bin/traceur-runtime.js"></script>
+    <script src="./node_modules/requirejs/require.js"></script>
+
+    <script>
+      require.config({
+        paths: {
+          assert: './node_modules/assert/dist/amd/assert'
+        },
+        deps: ['./compiled/src/main']
+      });
+    </script>
+
+  </body>
+</html>
