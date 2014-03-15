@@ -35,6 +35,14 @@ gulp watch
 ```
 
 
+### WTF is ES6?
+Simply, the next version of JavaScript that contains some really cool features. You might check out some of these:
+
+- https://wiki.mozilla.org/ES6_plans
+- http://globaldev.co.uk/2013/09/es6-part-1/
+- http://code.tutsplus.com/tutorials/eight-cool-features-coming-in-es6--net-33175
+
+
 ### What are all the pieces involved?
 
 #### [Traceur]
@@ -55,13 +63,60 @@ Test runner that runs the tests in specified browsers, everytime you change a fi
 Task runner to make defining and running the tasks simpler.
 
 
-### WTF is ES6?
-Simply, the next version of JavaScript that contains some really cool features. You might check out some of these:
+### And what the hell is the ++?
+When developing Angular v2, we are using some additional features that are not in the ES6 specs...
 
-- https://wiki.mozilla.org/ES6_plans
-- http://globaldev.co.uk/2013/09/es6-part-1/
-- http://code.tutsplus.com/tutorials/eight-cool-features-coming-in-es6--net-33175
+#### 1/ meta data annotations
+```js
+class SomeAnnotation {}
+class AnotherAnnotation {}
 
+@SomeAnnotation
+class Foo {
+  constructor(@AnotherAnnotation bar) {}
+}
+```
+This is a very similar syntax to annotations in Java/Dart. It is just a nice declarative way to put additional meta data on classes/functions/parameters.
+
+When `annotations: true`, Traceur transpiles the above code code into something like this:
+```js
+// ...
+
+Foo.annotations = [new SomeAnnotation];
+Foo.parameters = [[new AnotherAnnotation]];
+```
+
+Therefore you can easily achieve the same thing without transpiling the code. It just won't be as pretty ;-)
+
+#### 2/ type annotations
+```js
+function request(url: String, data: Object, callback: Function) {
+  // ...
+}
+```
+
+The syntax is more-less the same as [TypeScript].
+
+When `types: true, annotations: true`, Traceur transpiles this code into something like this:
+```js
+function request(url, data, callback) {
+  // ...
+}
+
+// this code might change
+request.parameters = [[String], [Object], [Function]];
+```
+
+When also `typeAssertions: true`, Traceur generates run-time assertions, such as:
+```js
+function request(url, data, callback) {
+  assert.argumentTypes(
+    url, String,
+    data, Object,
+    callback, Function
+  );
+}
+```
 
 
 [di.js]: https://github.com/angular/di.js
@@ -75,3 +130,4 @@ Simply, the next version of JavaScript that contains some really cool features. 
 [Assert]: https://github.com/angular/assert
 [Karma]: http://karma-runner.github.io/
 [Gulp]: http://gulpjs.com
+[TypeScript]: escriptlang.org
