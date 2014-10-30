@@ -9,25 +9,27 @@ module.exports = function(config) {
 
     files: [
       // The entry point that dynamically imports all the specs.
-      {pattern: 'main_test.js', included: true},
+      {pattern: 'test/main.js', included: true},
 
       // All the specs and sources are included dynamically from `test/main.js`.
-      {pattern: 'src/**/*.js', included: false},
-      {pattern: 'test/**/*.js', included: false},
+      {pattern: 'src/**/*.ats', included: false},
+      {pattern: 'test/**/*.ats', included: false},
 
       // The runtime assertion library.
       {pattern: 'node_modules/rtts-assert/dist/amd/assert.js', included: false}
     ],
 
     preprocessors: {
-      'src/**/*.js': ['traceur'],
-      'test/**/*.js': ['traceur']
+      '**/*.ats': ['traceur']
     },
 
     browsers: ['Chrome'],
 
     traceurPreprocessor: {
-      options: traceurOptions
+      options: traceurOptions,
+      transformPath: function(path) {
+        return path.replace(/\.ats$/, '.js');
+      }
     }
   });
 };

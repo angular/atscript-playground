@@ -1,10 +1,11 @@
 var gulp = require('gulp');
 var traceur = require('gulp-traceur');
 var connect = require('gulp-connect');
+var rename = require('gulp-rename');
 
 var TRACEUR_OPTIONS = require('./config').traceur;
 var PATH = {
-  SRC: './src/**/*.js'
+  SRC: './src/**/*.ats'
 };
 
 
@@ -12,6 +13,7 @@ var PATH = {
 gulp.task('build', function() {
   gulp.src(PATH.SRC)
       .pipe(traceur(TRACEUR_OPTIONS))
+      .pipe(rename({extname: '.js'}))
       .pipe(gulp.dest('build/src'));
 });
 
