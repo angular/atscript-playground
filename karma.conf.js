@@ -8,11 +8,15 @@ module.exports = function(config) {
     frameworks: ['jasmine', 'requirejs', 'traceur'],
 
     files: [
-      'test-main.js',
+      // The entry point that dynamically imports all the specs.
+      {pattern: 'main_test.js', included: true},
+
+      // All the specs and sources are included dynamically from `test/main.js`.
       {pattern: 'src/**/*.js', included: false},
       {pattern: 'test/**/*.js', included: false},
 
-      {pattern: 'node_modules/assert/dist/amd/**/*.js', included: false}
+      // The runtime assertion library.
+      {pattern: 'node_modules/rtts-assert/dist/amd/assert.js', included: false}
     ],
 
     preprocessors: {

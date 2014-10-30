@@ -1,2 +1,2 @@
-node_modules
-compiled
+/node_modules
+/build

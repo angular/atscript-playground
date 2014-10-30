@@ -1,8 +1,10 @@
 <html>
   <head>
-    <title>ES6++ playground</title>
+    <title>AtScript playground</title>
   </head>
   <body>
+
+    Check out the console;-)
 
     <script src="./node_modules/traceur/bin/traceur-runtime.js"></script>
     <script src="./node_modules/requirejs/require.js"></script>
@@ -10,9 +12,9 @@
     <script>
       require.config({
         paths: {
-          assert: './node_modules/assert/dist/amd/assert'
+          assert: './node_modules/rtts-assert/dist/amd/assert'
         },
-        deps: ['./compiled/src/main']
+        deps: ['./build/src/main']
       });
     </script>
 

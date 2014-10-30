@@ -1,29 +1,30 @@
 {
-  "name": "es6-playground",
+  "name": "atscript-playground",
+  "private": true,
   "version": "0.0.0",
-  "description": "A repo to play with ES6++",
-  "homepage": "https://github.com/vojtajina/es6-playground",
+  "description": "A repo to play with AtScript.",
+  "homepage": "https://github.com/vojtajina/atscript-playground",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vojtajina/es6-playground.git"
+    "url": "git://github.com/vojtajina/atscript-playground.git"
   },
   "bugs": {
-    "url": "https://github.com/vojtajina/es6-playground/issues"
+    "url": "https://github.com/vojtajina/atscript-playground/issues"
   },
   "dependencies": {
-    "traceur": "0.0.28",
-    "requirejs": "~2.1.11"
+    "traceur": "^0.0.72",
+    "requirejs": "^2.1.15"
   },
   "devDependencies": {
-    "karma": "~0.12.0",
-    "karma-jasmine": "~0.2.2",
-    "karma-chrome-launcher": "~0.1.2",
-    "karma-traceur-preprocessor": "~0.2.1",
-    "karma-requirejs": "~0.2.1",
+    "karma": "^0.12.24",
+    "karma-jasmine": "^0.2.2",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-traceur-preprocessor": "^0.4.0",
+    "karma-requirejs": "^0.2.2",
     "assert": "angular/assert#dist",
-    "gulp": "~3.5.6",
-    "gulp-traceur": "~0.1.3",
-    "gulp-connect": "~1.0.7"
+    "gulp": "^3.8.9",
+    "gulp-traceur": "^0.13.0",
+    "gulp-connect": "^2.0.6"
   },
   "scripts": {
     "test": "karma start --single-run"

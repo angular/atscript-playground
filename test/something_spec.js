@@ -12,6 +12,7 @@ describe('something', function() {
   });
 
   xit('should fail', function() {
+    // See the stack traces with source maps...
     something.sum(1, 'invalid');
   });
 });

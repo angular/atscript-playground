@@ -1,21 +1,20 @@
-## ES6++ playground
+## AtScript Playground
 
-This is an empty repo to make it easy to experiment with [ES6]. It also includes some additional features, such as annotations and run-time type checks. It is basically the setup we use on Angular v2, so you can check out some of the v2 repos such as [di.js], [templating] or [diary.js].
+This is an empty repo to make it easy to experiment with [AtScript].
 
 
 ### Initial setup
 
 ```bash
 # Clone the repo...
-git clone https://github.com/vojtajina/es6-playground.git
-cd es6-playground
+git clone https://github.com/vojtajina/atscript-playground.git
+cd atscript-playground
 
 # Then, you need to install all the dependencies...
 npm install
 
 # If you wanna be able to use global commands `karma` and `gulp`...
-npm install -g karma-cli
-npm install -g gulp
+npm install -g karma-cli gulp
 ```
 
 
@@ -33,15 +32,6 @@ gulp serve
 # If you wanna Gulp to re-build on every change...
 gulp watch
 ```
-
-
-### WTF is ES6?
-Simply, the next version of JavaScript that contains some really cool features. You might check out some of these:
-
-- https://wiki.mozilla.org/ES6_plans
-- http://globaldev.co.uk/2013/09/es6-part-1/
-- http://code.tutsplus.com/tutorials/eight-cool-features-coming-in-es6--net-33175
-
 
 ### What are all the pieces involved?
 
@@ -61,6 +51,16 @@ Test runner that runs the tests in specified browsers, everytime you change a fi
 
 #### [Gulp]
 Task runner to make defining and running the tasks simpler.
+
+
+
+### WTF is ES6?
+Simply, the next version of JavaScript that contains some really cool features. You might check out some of these:
+
+- https://wiki.mozilla.org/ES6_plans
+- http://globaldev.co.uk/2013/09/es6-part-1/
+- http://code.tutsplus.com/tutorials/eight-cool-features-coming-in-es6--net-33175
+
 
 
 ### And what the hell is the ++?
