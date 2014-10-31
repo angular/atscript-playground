@@ -25,7 +25,7 @@ Our example consists of two files:
 * `atscript-playground/src/main.ats` imports that class and prints a message to the console
  
 ### Running the example in the browser
-To run in the browser, you need to first build the project. This creates a `dist/` directory that contains the transpiled .js files that are created from your AtScript project.
+To run in the browser, you need to first build the project. This creates a `build/` directory that contains the transpiled `*.js` files that are created from your AtScript project.
 
 ```bash
 gulp build
