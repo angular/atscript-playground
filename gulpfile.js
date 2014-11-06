@@ -1,28 +1,42 @@
 var gulp = require('gulp');
 var traceur = require('gulp-traceur');
 var connect = require('gulp-connect');
-var rename = require('gulp-rename');
+var rename_ = require('gulp-rename');
 
 var TRACEUR_OPTIONS = require('./config').traceur;
 var PATH = {
+  BUILD: './build/',
   SRC: './src/**/*.ats',
   TEST: './test/**/*.ats'
 };
 
+// A wrapper around gulp-rename to support `dirnamePrefix`.
+function rename(obj) {
+  return rename_(function(parsedPath) {
+    return {
+      extname: obj.extname || parsedPath.extname,
+      dirname: (obj.dirnamePrefix || '') + parsedPath.dirname,
+      basename: parsedPath.basename
+    };
+  });
+}
+
 
 // TRANSPILE AT SCRIPT
 gulp.task('build/src', function() {
-  gulp.src(PATH.SRC)
+  gulp.src(PATH.SRC, {base: '.'})
+      // Rename before Traceur, so that Traceur has the knowledge of both input and output paths.
+      .pipe(rename({extname: '.js', dirnamePrefix: PATH.BUILD}))
       .pipe(traceur(TRACEUR_OPTIONS))
-      .pipe(rename({extname: '.js'}))
-      .pipe(gulp.dest('build/src'));
+      .pipe(gulp.dest('.'));
 });
 
 gulp.task('build/test', function() {
-  gulp.src(PATH.TEST)
+  gulp.src(PATH.TEST, {base: '.'})
+      // Rename before Traceur, so that Traceur has the knowledge of both input and output paths.
+      .pipe(rename({extname: '.js', dirnamePrefix: PATH.BUILD}))
       .pipe(traceur(TRACEUR_OPTIONS))
-      .pipe(rename({extname: '.js'}))
-      .pipe(gulp.dest('build/test'));
+      .pipe(gulp.dest('.'));
 });
 
 gulp.task('build', ['build/src', 'build/test']);
