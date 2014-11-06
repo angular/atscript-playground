@@ -5,6 +5,17 @@ var TraceurNodeCompiler = require('traceur/src/node/NodeCompiler').NodeCompiler;
 var options = require('./config.json').traceur;
 var compiler = new TraceurNodeCompiler(options, '../../');
 
+// Increment the lock to delay Karma unit tests until all watchers are finished.
+var LOCK_FILE = '.atscriptwatcher';
+var fs = require('fs');
+
+if (fs.existsSync(LOCK_FILE)) {
+  var lockCount = parseInt(fs.readFileSync(LOCK_FILE).toString(), 10);
+  lockCount++;
+  fs.writeFileSync(LOCK_FILE, lockCount.toString());
+} else {
+  fs.writeFileSync(LOCK_FILE, '1');
+}
 
 // TODO(vojta): fix this in Traceur instead
 // Traceur generates source map file in the CWD.
@@ -28,3 +39,13 @@ compiler.writeTreeToFile = function(tree, filename) {
 compiler.compileSingleFile(inputFilename, outputFilename, function(err) {
   console.error(err);
 });
+
+// Release/decrement the lock.
+var lockCount = parseInt(fs.readFileSync(LOCK_FILE).toString(), 10);
+lockCount--;
+
+if (lockCount === 0) {
+  fs.unlinkSync(LOCK_FILE);
+} else {
+  fs.writeFileSync(LOCK_FILE, lockCount.toString());
+}
