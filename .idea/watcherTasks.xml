@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectTasksOptions" suppressed-tasks="Traceur compiler">
+  <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$PROJECT_DIR$/webstorm_traceur.js $FileRelativeDir$/$FileName$ build/$FileRelativeDir$/$FileNameWithoutExtension$.js" />
+      <option name="arguments" value="$ProjectFileDir$/webstorm_traceur.js $FilePathRelativeToProjectRoot$ build/$FileRelativeDir$/$FileNameWithoutExtension$.js" />
       <option name="checkSyntaxErrors" value="false" />
-      <option name="description" value="Compile AtScript into JavaScript." />
+      <option name="description" value="" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
@@ -17,7 +17,7 @@
       <option name="passParentEnvs" value="true" />
       <option name="program" value="$USER_HOME$/.nvm/v0.10.33/bin/node" />
       <option name="scopeName" value="atscript" />
-      <option name="trackOnlyRoot" value="false" />
+      <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$ProjectFileDir$" />
       <envs />
     </TaskOptions>
