@@ -27,7 +27,7 @@ module.exports = function(config) {
   }
 
   config.set({
-    frameworks: ['jasmine', 'requirejs', 'traceur'],
+    frameworks: ['jasmine', 'requirejs', 'traceur', 'sourcemaps'],
 
     files: [
       // The entry point that dynamically imports all the specs.
@@ -53,4 +53,6 @@ module.exports = function(config) {
       }
     }
   });
+
+  config.plugins.push(require('./karma_sourcemaps'));
 };

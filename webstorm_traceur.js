@@ -3,7 +3,7 @@ var outputFilename = process.argv[3] || inputFilename.replace(/\.ats$/, '.js');
 
 var TraceurNodeCompiler = require('traceur/src/node/NodeCompiler').NodeCompiler;
 var options = require('./config.json').traceur;
-var compiler = new TraceurNodeCompiler(options);
+var compiler = new TraceurNodeCompiler(options, '../../');
 
 
 // TODO(vojta): fix this in Traceur instead
@@ -12,7 +12,7 @@ var compiler = new TraceurNodeCompiler(options);
 var writeFile = require('traceur/src/node/file-util').writeFile;
 compiler.writeTreeToFile = function(tree, filename) {
   filename = this.normalize(filename);
-  var compiledCode = this.write(tree, filename);
+  var compiledCode = this.write(tree, filename, this.sourceRoot_);
   if (this.options_.sourceMaps === 'file') {
     var sourcemap = this.getSourceMap();
     if (sourcemap) {
