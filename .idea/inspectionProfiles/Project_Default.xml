@@ -1,0 +1,536 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0" is_locked="false">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="false" />
+    <inspection_tool class="AnonymousFunctionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="AssignmentResultUsedJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="AssignmentToForLoopParameterJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="AssignmentToFunctionParameterJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="BadExpressionStatementJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="BlockStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="BreakStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="BreakStatementWithLabelJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="CallerJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ChainedEqualityJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ChainedFunctionCallJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="CodeAssistanceForRequiredModule" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="CommaExpressionJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConditionalExpressionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConditionalExpressionWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConfusingFloatingPointLiteralJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConfusingPlusesOrMinusesJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConstantConditionalExpressionJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConstantIfStatementJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConstantOnLHSOfComparisonJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ConstantOnRHSOfComparisonJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ContinueOrBreakFromFinallyBlockJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ContinueStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ContinueStatementWithLabelJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="CyclomaticComplexityJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_limit" value="10" />
+      </scope>
+      <option name="m_limit" value="10" />
+    </inspection_tool>
+    <inspection_tool class="DebuggerStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="DivideByZeroJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="DocumentWriteJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="DuplicateCaseLabelJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="DuplicateConditionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="DynamicallyGeneratedCodeJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ES6Validation" enabled="true" level="ERROR" enabled_by_default="true">
+      <scope name="atscript" level="ERROR" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="EmptyCatchBlockJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="EmptyFinallyBlockJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="EmptyStatementBodyJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_reportEmptyBlocks" value="false" />
+      </scope>
+      <option name="m_reportEmptyBlocks" value="false" />
+    </inspection_tool>
+    <inspection_tool class="EmptyTryBlockJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="EqualityComparisonWithCoercionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="ERROR" enabled_by_default="false">
+      <scope name="atscript" level="ERROR" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ExceptionCaughtLocallyJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="FallThroughInSwitchStatementJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ForLoopReplaceableByWhileJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_ignoreLoopsWithoutConditions" value="false" />
+      </scope>
+      <option name="m_ignoreLoopsWithoutConditions" value="false" />
+    </inspection_tool>
+    <inspection_tool class="ForLoopThatDoesntUseLoopVariableJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="FunctionNamingConventionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_regex" value="[a-z][A-Za-z]*" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[a-z][A-Za-z]*" />
+      <option name="m_minLength" value="4" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="FunctionWithInconsistentReturnsJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="FunctionWithMultipleLoopsJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="FunctionWithMultipleReturnPointsJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="GjsLint" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="IfStatementWithTooManyBranchesJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_limit" value="3" />
+      </scope>
+      <option name="m_limit" value="3" />
+    </inspection_tool>
+    <inspection_tool class="IncompatibleMaskJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="IncrementDecrementResultUsedJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="InfiniteLoopJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="InfiniteRecursionJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="InnerHTMLJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSAccessibilityCheck" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSBitwiseOperatorUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSClosureCompilerSyntax" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSCommentMatchesSignature" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSComparisonWithNaN" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSConsecutiveCommasInArrayLiteral" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSConstructorReturnsPrimitive" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSDeclarationsAtScopeStart" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSDeprecatedSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSDuplicatedDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="false">
+      <scope name="atscript" level="ERROR" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSJQueryEfficiency" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSLastCommaInArrayLiteral" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSLastCommaInObjectLiteral" enabled="true" level="ERROR" enabled_by_default="true">
+      <scope name="atscript" level="ERROR" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSLint" enabled="true" level="ERROR" enabled_by_default="false">
+      <scope name="atscript" level="ERROR" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSMethodCanBeStatic" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="queries" value="trace,write" />
+        <option name="updates" value="pop,push,shift,splice,unshift" />
+      </scope>
+      <option name="queries" value="trace,write" />
+      <option name="updates" value="pop,push,shift,splice,unshift" />
+    </inspection_tool>
+    <inspection_tool class="JSPotentiallyInvalidConstructorUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="myConsiderUppercaseFunctionsToBeConstructors" value="true" />
+      </scope>
+      <option name="myConsiderUppercaseFunctionsToBeConstructors" value="true" />
+    </inspection_tool>
+    <inspection_tool class="JSPotentiallyInvalidTargetOfIndexedPropertyAccess" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSPotentiallyInvalidUsageOfThis" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSPrimitiveTypeWrapperUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSReferencingMutableVariableFromClosure" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSSuspiciousNameCombination" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <group names="x,width,left,right" />
+        <group names="y,height,top,bottom" />
+        <exclude classes="Math" />
+      </scope>
+      <group names="x,width,left,right" />
+      <group names="y,height,top,bottom" />
+      <exclude classes="Math" />
+    </inspection_tool>
+    <inspection_tool class="JSUndeclaredVariable" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUndefinedPropertyAssignment" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnfilteredForInLoop" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnnecessarySemicolon" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnresolvedFunction" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnresolvedLibraryURL" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnresolvedVariable" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnusedAssignment" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSValidateJSDoc" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSValidateTypes" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WEAK WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JSXLanguageLevel" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JasmineAdapterSupport" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JsTestDriverTestCaseWithoutTests" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="Jscs" enabled="true" level="ERROR" enabled_by_default="false">
+      <scope name="atscript" level="ERROR" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="JstdAssertionFrameworkSupport" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="KarmaConfigFile" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="LabeledStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="LocalVariableNamingConventionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_regex" value="[a-z][A-Za-z]*" />
+        <option name="m_minLength" value="1" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[a-z][A-Za-z]*" />
+      <option name="m_minLength" value="1" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="LoopStatementThatDoesntLoopJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="MagicNumberJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NegatedConditionalExpressionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NegatedIfStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NestedAssignmentJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NestedConditionalExpressionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NestedFunctionCallJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NestedFunctionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_includeAnonymousFunctions" value="false" />
+      </scope>
+      <option name="m_includeAnonymousFunctions" value="false" />
+    </inspection_tool>
+    <inspection_tool class="NestedSwitchStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NestingDepthJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_limit" value="5" />
+      </scope>
+      <option name="m_limit" value="5" />
+    </inspection_tool>
+    <inspection_tool class="NonBlockStatementBodyJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="NonShortCircuitBooleanExpressionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ObjectAllocationIgnoredJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="OctalIntegerJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="OverlyComplexArithmeticExpressionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_limit" value="6" />
+      </scope>
+      <option name="m_limit" value="6" />
+    </inspection_tool>
+    <inspection_tool class="OverlyComplexBooleanExpressionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_limit" value="3" />
+      </scope>
+      <option name="m_limit" value="3" />
+    </inspection_tool>
+    <inspection_tool class="ParameterNamingConventionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_regex" value="[a-z][A-Za-z]*" />
+        <option name="m_minLength" value="1" />
+        <option name="m_maxLength" value="32" />
+      </scope>
+      <option name="m_regex" value="[a-z][A-Za-z]*" />
+      <option name="m_minLength" value="1" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="ParametersPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_limit" value="5" />
+      </scope>
+      <option name="m_limit" value="5" />
+    </inspection_tool>
+    <inspection_tool class="PlatformDetectionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="PointlessArithmeticExpressionJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="PointlessBitwiseExpressionJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_ignoreExpressionsContainingConstants" value="false" />
+      </scope>
+      <option name="m_ignoreExpressionsContainingConstants" value="false" />
+    </inspection_tool>
+    <inspection_tool class="PointlessBooleanExpressionJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="QUnitAdapterSupport" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ReplaceAssignmentWithOperatorAssignmentJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ReservedWordUsedAsNameJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ReturnFromFinallyBlockJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ReuseOfLocalVariableJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ShiftOutOfRangeJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="SillyAssignmentJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="StatementsPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_limit" value="30" />
+      </scope>
+      <option name="m_limit" value="30" />
+    </inspection_tool>
+    <inspection_tool class="StringLiteralBreaksHTMLJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="SwitchStatementWithNoDefaultBranchJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="TailRecursionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="TextLabelInSwitchStatementJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ThisExpressionReferencesGlobalObjectJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ThreeNegationsPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="ThrowFromFinallyBlockJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="TrivialConditionalJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="TrivialIfJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryContinueJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryLabelJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryLabelOnBreakStatementJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryLabelOnContinueStatementJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryLocalVariableJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_ignoreImmediatelyReturnedVariables" value="false" />
+        <option name="m_ignoreAnnotatedVariables" value="false" />
+      </scope>
+      <option name="m_ignoreImmediatelyReturnedVariables" value="false" />
+      <option name="m_ignoreAnnotatedVariables" value="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryReturnJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="UnreachableCodeJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="UnterminatedStatementJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="ignoreSemicolonAtEndOfBlock" value="true" />
+      </scope>
+      <option name="ignoreSemicolonAtEndOfBlock" value="true" />
+    </inspection_tool>
+    <inspection_tool class="UnusedCatchParameterJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false">
+        <option name="m_ignoreCatchBlocksWithComments" value="false" />
+      </scope>
+      <option name="m_ignoreCatchBlocksWithComments" value="false" />
+    </inspection_tool>
+    <inspection_tool class="VoidExpressionJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="WithStatementJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="XHTMLIncompatabilitiesJS" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="atscript" level="WARNING" enabled="false" />
+    </inspection_tool>
+  </profile>
+</component>

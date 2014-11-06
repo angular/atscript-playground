@@ -5,18 +5,27 @@ var rename = require('gulp-rename');
 
 var TRACEUR_OPTIONS = require('./config').traceur;
 var PATH = {
-  SRC: './src/**/*.ats'
+  SRC: './src/**/*.ats',
+  TEST: './test/**/*.ats'
 };
 
 
 // TRANSPILE AT SCRIPT
-gulp.task('build', function() {
+gulp.task('build/src', function() {
   gulp.src(PATH.SRC)
       .pipe(traceur(TRACEUR_OPTIONS))
       .pipe(rename({extname: '.js'}))
       .pipe(gulp.dest('build/src'));
 });
 
+gulp.task('build/test', function() {
+  gulp.src(PATH.TEST)
+      .pipe(traceur(TRACEUR_OPTIONS))
+      .pipe(rename({extname: '.js'}))
+      .pipe(gulp.dest('build/test'));
+});
+
+gulp.task('build', ['build/src', 'build/test']);
 
 // WATCH FILES FOR CHANGES
 gulp.task('watch', function() {
