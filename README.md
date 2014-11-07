@@ -46,7 +46,7 @@ Karma opens a browser window for running tests. To see the actual test output (a
 Transpiles AtScript code into regular ES5 (today's JavaScript) so that it can be run in a current browser.
 
 #### [RequireJS]
-Traceur is configured to transpile AtScript modules into AMD syntax and we use RequireJS to load the code in the browser.
+Traceur is configured to transpile AtScript modules into AMD syntax and we use RequireJS to load the code in the browser. This is just temporary until we improve the ES Module Loader polyfill ([more details](https://github.com/angular/atscript-playground/issues/3)).
 
 #### [Assert] library
 When `typeAssertions: true` option is used, Traceur generates run-time type assertions such as `assert.type(x, Object)`. The assert library does the actual run-time check. Of course, you can use your own assert library.
