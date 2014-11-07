@@ -28,11 +28,8 @@ Our example consists of two files:
 To run in the browser, you need to first build the project. This creates a `build/` directory that contains the transpiled `*.js` files that are created from your AtScript project.
 
 ```bash
-gulp build
-gulp serve
-
-# If you want Gulp to re-build on every change...
-gulp watch
+# Do initial build, start a webserver and re-build on every file change...
+gulp build serve watch
 ```
 Open a browser and look in the console log to see the result.
 
