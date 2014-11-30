@@ -12,7 +12,7 @@
     "url": "https://github.com/vojtajina/atscript-playground/issues"
   },
   "dependencies": {
-    "traceur": "^0.0.72",
+    "traceur": "^0.0.74",
     "requirejs": "^2.1.15"
   },
   "devDependencies": {
