@@ -7,7 +7,7 @@ This is an empty repo to make it easy to experiment with [AtScript].
 
 ```bash
 # Clone the repo...
-git clone https://github.com/vojtajina/atscript-playground.git
+git clone https://github.com/angular/atscript-playground.git
 cd atscript-playground
 
 # Then, you need to install all the dependencies...
