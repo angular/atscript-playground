@@ -1,6 +1,6 @@
 ## AtScript Playground
 
-This is an empty repo to make it easy to experiment with [AtScript].
+This is an empty repo to make it easy to experiment with AtScript.
 
 
 ### Initial setup
